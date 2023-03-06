@@ -4,7 +4,9 @@ The Data Overlap has been developed to identify common elements between columns 
 
 # Installation
 
-```pip install ```
+Data_overlap can be installed directly using pip:
+
+```pip install Data-overlap ```
 
 # Useage
 
