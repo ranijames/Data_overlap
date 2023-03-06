@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'Data_overlap'
 AUTHOR = 'Alva Rani James'
 AUTHOR_EMAIL = 'alvarani@gmail.com'
@@ -19,6 +19,8 @@ INSTALL_REQUIRES = [
         'itertools'
 ]
 
+
+PYTHON_REQUIRES = ">=3.8"
 setup(name=PACKAGE_NAME,
       version=VERSION,
       description=DESCRIPTION,
