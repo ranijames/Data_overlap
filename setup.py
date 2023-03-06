@@ -16,8 +16,7 @@ LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
          'pandas',
-        'itertools',
-        'os'
+        'itertools'
 ]
 
 setup(name=PACKAGE_NAME,
